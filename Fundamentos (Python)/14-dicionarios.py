@@ -22,3 +22,14 @@ print(gameFifa.values())
 
 # 4 - Buscar itens do dicionário com chave e valor
 print(gameFifa.items())
+
+# 5 - Adicionar itens no dicionário
+gameFifa["players"] = 2
+print(gameFifa)
+
+# 6 - Atualizar itens no dicionário
+gameFifa.update({"players": 1})
+
+# 7 - Remover itens do dicionário
+gameFifa.pop("players")
+print(gameFifa)
